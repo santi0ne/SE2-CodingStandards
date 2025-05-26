@@ -1,4 +1,6 @@
+'''A Student class'''
 class student:
+    '''Represents a student with grades and honors evaluation'''
 
     def __init__(s,id,name):
         s.id=id
