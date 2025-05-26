@@ -1,11 +1,11 @@
 class student:
 
- def __init__(s,id,name):
-     s.id=id
-     s.name =name
-     s.gradez = []
-     s.isPassed = "NO"
-     s.honor = "?" # Should be bool
+    def __init__(s,id,name):
+        s.id=id
+        s.name =name
+        s.gradez = []
+        s.isPassed = "NO"
+        s.honor = "?" # Should be bool
 
  def addGrades(self, g):
      self.gradez.append(g)
