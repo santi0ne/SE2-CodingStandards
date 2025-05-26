@@ -2,8 +2,8 @@
 class Student:
     '''Represents a student with grades and honors evaluation'''
 
-    def __init__(self,id,name):
-        self.id=id
+    def __init__(self,student_id,name):
+        self.id=student_id
         self.name =name
         self.gradez = []
         self.is_passed = "NO"
