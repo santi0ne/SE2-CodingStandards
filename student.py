@@ -1,5 +1,5 @@
 '''A Student class'''
-class student:
+class Student:
     '''Represents a student with grades and honors evaluation'''
 
     def __init__(s,id,name):
