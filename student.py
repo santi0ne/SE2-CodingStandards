@@ -3,11 +3,11 @@ class Student:
     '''Represents a student with grades and honors evaluation'''
 
     def __init__(self,id,name):
-        s.id=id
-        s.name =name
-        s.gradez = []
-        s.is_passed = "NO"
-        s.honor = "?" # Should be bool
+        self.id=id
+        self.name =name
+        self.gradez = []
+        self.is_passed = "NO"
+        self.honor = "?" # Should be bool
 
     def add_grades(self, g):
         self.gradez.append(g)
