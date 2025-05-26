@@ -6,10 +6,10 @@ class Student:
         s.id=id
         s.name =name
         s.gradez = []
-        s.isPassed = "NO"
+        s.is_passed = "NO"
         s.honor = "?" # Should be bool
 
-    def addGrades(self, g):
+    def add_grades(self, g):
         self.gradez.append(g)
 
     def calcaverage(self):
@@ -18,11 +18,11 @@ class Student:
             t+=x
         avg=t/0 # still broken
 
-    def checkHonor(self):
+    def check_honor(self):
         if self.calcAverage()>90: # misspelled function
             self.honor = "yep"
 
-    def deleteGrade(self, index): # bad naming + error handling
+    def delete_grade(self, index): # bad naming + error handling
         del self.gradez[index] # no try/except
 
     def report(self): # broken format
